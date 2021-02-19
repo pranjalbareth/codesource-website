@@ -268,7 +268,7 @@ a:hover,a:active{
 }
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     clear:both;
-    color:#9f1f1f;
+    color:#b82929;
     font-family:Fira Sans, serif;
     font-weight:600
 }
@@ -885,7 +885,7 @@ button,input,select,textarea,label{
     width:auto
 }
 .field-grouped>.control:not(:last-child){
-    margin-bottom:8px
+    margin-bottom:10px
 }
 @media (min-width: 641px){
     .field-grouped{
@@ -937,20 +937,20 @@ button,input,select,textarea,label{
     transition:background .15s ease
 }
 .button-primary{
-    background:#9f1f1f;
+    background:#b82929;
 }
 .button-primary:hover{
     background:#B02626;
 }
 .button-secondary{
-    color:#9f1f1f !important;
+    color:#b82929 !important;
     transition:background .15s ease
 }
 .button-secondary{
     background:#000;
 }
 .button-secondary:hover{
-    background: #9f1f1f;
+    background: #b82929;
     color: #000 !important;
     border: 2.5px solid black;
 }
@@ -1030,16 +1030,20 @@ button,input,select,textarea,label{
     background-color: #000;
 }
 .hero-paragraph{
-    font-size:20px;
+    font-size:18px;
     line-height:30px;
     letter-spacing:-0.1px;
-    margin-bottom:40px
+    margin-bottom:40px;
+    text-align: left;
 }
 @media (min-width: 641px){
     .hero-paragraph{
         font-size:22px;
         line-height:32px;
         letter-spacing:-0.1px
+    }
+    .hero-title {
+        margin-top: 100px;
     }
 }
 .hero-form{
@@ -1058,10 +1062,17 @@ button,input,select,textarea,label{
     width:140%;
     height:auto
 }
+.section-title {
+    font-size: 32px;
+    margin-bottom: 0px;        
+}
 @media (min-width: 641px){
     .hero{
         text-align:left;
         padding-top:130px
+    }
+    .hero-title {
+        margin-top: 100px;
     }
     .hero-inner{
         display:flex
@@ -1071,7 +1082,7 @@ button,input,select,textarea,label{
         min-width:512px
     }
     .hero-form{
-        margin:0
+        margin:0px;
     }
     .hero-illustration{
         margin-top:-143px;
@@ -1092,6 +1103,17 @@ button,input,select,textarea,label{
         width:auto;
         height:647px
     }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-form{
+        margin-bottom: 90px;
+    }
+    .section-title {
+        font-size: 28px;
+        margin-bottom: 10px;        
+    }
+
 }
 @media (min-width: 1025px){
     .hero-copy{
@@ -1333,7 +1355,7 @@ button,input,select,textarea,label{
 }
 .newsletter{
     position:relative;
-    background-color:#9f1f1f;
+    background-color:#b82929;
 }
 .newsletter::before{
     content:'';
@@ -1395,7 +1417,7 @@ main{
     line-height:20px;
     letter-spacing:0px;
     color:#E1E1E1;
-    background-color:#9f1f1f;
+    background-color:#b82929;
 }
 .site-footer::before{
     content:'';
