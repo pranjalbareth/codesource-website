@@ -1,6 +1,6 @@
 # CodeSource'21
 
-![CodeSource](https://img.shields.io/badge/code-source-green) ![ProjektFOSS](https://img.shields.io/badge/projekt-foss-red)
+![CodeSource](https://img.shields.io/badge/code-source-brightgreen) ![ProjektFOSS](https://img.shields.io/badge/projekt-foss-red)
 
 CodeSource is a month of opensource where programmers,
 designers and innovators code, design, learn and build
